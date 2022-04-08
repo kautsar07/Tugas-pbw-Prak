@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height:937px;
+}
+
+.background{
+    background: linear-gradient(wheat, rgb(255, 166, 0));
+}
+.header {
+    overflow: hidden;
+    background-color: rgb(255, 232, 188);
+    padding: 10px 10px;
+    font-family: "courier new";   
+}
+.header a {
+    float: left;
+    color: rgb(255, 166, 0);
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 50px 12px 50px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 20px;
+    border-radius: 10px;
+   
+}
+.header a.Nama {
+    font-size: 20px;
+    font-weight: bold;
+  }
+.header-right {
+    float: right;
+}
+.header a.hover:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.Detail{
+    width: 100%;
+    float: right;
+    background-size: cover;
+    font-family: "Brush Script MT";
+}
+.Wrapper{
+
+    padding: 30px 20px;
+    float: right;
+    width: 100%;
+}
+
+.Foto{
+    width: 35%;
+    float: right;
+    padding: 15px;
+    margin: 0 35%;
+    border-radius: 10px;
+}
+.Foto img{
+    height: 200px;
+    width: 160px;
+    border-radius: 100%;
+    float: right;
+}
+.Foto h1{
+    margin: 0%;
+    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 70px;
+}
+.Foto h4{
+    margin: 0%;
+    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+.Foto p{
+    margin: 0%;
+    padding: 5px 50px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.skills{
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+    font-family: "courier new";  
+}
+.skills_1{
+    float: left;
+    width: 50%;
+    border-right: rgb(255, 166, 0);
+    border-style: none solid none none;
+    padding: 20px;
+}
+.experiences{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.skills_1 h3{
+    float: left;
+    width: 100%;
+    text-align: right;
+    padding: 0px 0 20px 20px;
+    margin: 0;
+    color: rgb(63, 63, 63);
+    font-size: 30px;
+}
+.skill{
+    width: 100%;
+    float: right;
+}
+.skill_1{
+    float: right;
+    width: 100%;
+}
+
+.skill_1 h4{
+    float: right;
+    text-align: right;
+    width: 100%;
+    margin: 0px;
+    color: rgb(63, 63, 63);
+}
+.skill_1 p{
+    float: right;
+    text-align: right;
+    margin: 0px;
+    color: rgb(63, 63, 63);
+}
+
+.skill_1 p.sama {
+    float: right;
+    text-align: right;
+    margin: 0px;
+}
+
+.experiences h3{
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 30px 0 20px 0px;
+    margin: 0;
+    color: rgb(63, 63, 63);
+    font-size: 30px;
+}
+.experiences h4{
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+    color: rgb(63, 63, 63);
+}
+.experiences p{
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+    color: rgb(63, 63, 63);
+}
+
+.contacts{
+    width: 100%;
+    margin-top: 5px;
+    float: left;
+    font-family: "courier new"; 
+}
+.contacts_1{   
+    float: left;
+    width: 100%;
+    padding: 0px;
+}
+.contacts_1 h3{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0 20px 0px;
+    margin: 0;
+    color: rgb(63, 63, 63);
+    font-size: 35px;
+ 
+}
+.contact{
+    width: 35%;
+    float: right;
+    padding: 0px;
+    margin: 0 35%;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+.contact{
+    width: 30%;
+    float: center;
+}
+.contact_1{
+    float: right;
+    width: 100%;
+}
+
+.contact_1 h4{
+    float: right;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    color: rgb(63, 63, 63);
+}
+.contact_1 p{
+    text-align: center;
+    margin: 0px;
+    color: rgb(63, 63, 63);
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom:0;
+    margin-left:10cm;
+    margin-right: 10cm;
+    border-style:outset;
+    border-width: 1px;
+}
+.kecil {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom:0;
+    margin-left:20cm;
+    margin-right: 20cm;
+    border-style:dashed;
+    border-width: 1px;
+}
+
+
